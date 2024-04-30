@@ -261,6 +261,10 @@ conclusion: different classifiers are good at reading different channel labels
 
 - adjust data to certain classifier
 
+Future Plans
+-----------------------------------------------------------------------------------------------
+- Change the features of the csv files
+- Try out multilayer architectures and their applications.
 
 Valuable sources:
 -----------------------------------------------------------------------------------------------

@@ -9,19 +9,26 @@ normal/abnormal EEG classifier.
 
 Overview of the data:
 - data was represented as vectors:
+
 Electroencephalography (EEG) data represented as vectors
 typically refers to the recording of electrical activity
 along the scalp produced by the firing of neurons
+
 (1) Time Series Data:
 Each vector represents the voltage changes at a particular electrode over a period of time, creating a time series data set.
+
 (2) Dimensionality:
 If you have data from multiple electrodes, each electrode's time series can be thought of as one dimension in a multi-dimensional dataset.
 For instance, if you have 32 electrodes, you might have 32 dimensions, where each dimension corresponds to the data from one electrode.
+
 (3) Sampling and Resolution:
 The data in each vector is sampled at a certain rate (e.g., 250 Hz), meaning measurements are taken 250 times per second per electrode.
 Each sample point is a scalar value representing the voltage at a specific time point.
+
 (4) Vector Representation: Mathematically, each electrode's data can be represented as a vector in an N-dimensional space (N being the number of sample points).
 If you concatenate or stack these vectors, you can form a matrix representing all electrodes over a time interval, useful for further analysis like signal processing or machine learning.
+
+
 
 Masoom J. Desai work outcomes:
 cd data/isip/exp/tuh_eeg/exp_4048

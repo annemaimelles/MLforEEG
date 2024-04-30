@@ -1,5 +1,6 @@
 # MLforEEG
-My final project for Introduction to Problem solving and Programming in Python Spring 2024.
+My final project for Introduction to Problem solving and Programming in Python Spring 2024:
+https://youtu.be/vOwQQPZPb2c
 
 I use Emacs Macro to write the code using MobaXterm toolbox.
 
